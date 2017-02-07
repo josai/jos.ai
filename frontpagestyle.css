@@ -1,0 +1,61 @@
+
+h1 {
+}
+p {
+}
+
+body {
+	background-color: #22221b;
+
+}
+div.mainbox {
+	min-height: 600px;
+}
+div.headlinks {
+	z-index: 3;
+    position: relative;
+	margin: 0 auto auto;
+	width: 80%;
+    height: 80px;
+}
+div.links {
+	font-family: 'FifteenNarrow';
+	float: left;
+	font-weight: 900;
+	font-size: 1.25em;
+	text-align: center;
+	width: 25%;
+	height: 100%;
+}
+div.cube {
+	text-align: center;
+	margin: 0 auto;
+	margin-top: -90px;
+    max-width: 500px;
+    height: 500px
+}
+#cubeimg {
+	z-index: 2;
+	margin-top: -90px;
+	margin-left: -125px;
+	width: 100%;
+    height: 100%;
+}
+@font-face {
+    font-family: 'FifteenNarrow'; /*a name to be used later*/
+    src: url('FifteenNarrow.ttf'); /*URL to font*/
+}
+.function {
+	font-family: 'FifteenNarrow';
+	font-weight: 700;
+	font-size: 1.25em;
+	text-align: left;
+	margin-left: 20%;
+	margin-top: 5%;
+	max-width: 60%;
+}
+.commenttext {
+	font-family: 'FifteenNarrow';
+	color: #E6DB74;
+	margin-left: 5%
+}
